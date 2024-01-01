@@ -1,0 +1,26 @@
+package id.ac.undiksha.siak;
+
+import id.ac.undiksha.siak.people.Dosen;
+import id.ac.undiksha.siak.people.Mahasiswa;
+import id.ac.undiksha.siak.people.Manusia;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Lecturer Object
+		Manusia dsn1 = new Dosen("Galang Januarta S.Pd, M.T", "31 Oktober 1994", "Penarukan", false, "190023419", "081235234111");
+		Manusia dsn2 = new Dosen("Tamayasa Korneki S.Kom, M.Kom", "31 Januari 1994", "Abian Semal", false, "190023419", "082235234111");
+
+		// Student Object
+        
+        // Print Area
+        System.out.println("======= Data Mahasiswa =======\n");
+        System.out.println(dsn1.getNama());
+        System.out.println(dsn2.getNama());
+        
+        Manusia kadek = new Dosen();
+        
+        System.out.println("========= Data Dosen =========\n");
+	}
+}

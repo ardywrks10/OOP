@@ -1,0 +1,21 @@
+package id.ac.undiksha.siak.organisasi;
+
+public class Prodi {
+	private String kodeProdi;
+	private String namaProdi;
+	
+	public String getKodeProdi() {
+		return KodeProdi;
+	}
+	public void setKodeProdi(String kodeProdi) {
+		KodeProdi = kodeProdi;
+	}
+	public String getNamaProdi() {
+		return namaProdi;
+	}
+	public void setNamaProdi(String namaProdi) {
+		this.namaProdi = namaProdi;
+	}
+	
+	
+}

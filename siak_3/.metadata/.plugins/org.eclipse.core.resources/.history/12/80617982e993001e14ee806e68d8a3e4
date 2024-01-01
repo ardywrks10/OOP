@@ -1,0 +1,7 @@
+package id.ac.undiksha.siak.organisasi;
+
+public interface Jurusan {
+	
+	public void setKodeJurusan(String kodeJurusan);
+	public String getKodeJurusan();
+}

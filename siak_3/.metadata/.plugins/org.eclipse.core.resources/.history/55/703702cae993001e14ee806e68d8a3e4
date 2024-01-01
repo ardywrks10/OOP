@@ -1,0 +1,27 @@
+package id.ac.undiksha.siak.organisasi;
+import id.ac.undiksha.siak.people.Dosen;
+
+public class Prodi {
+	private String KodeProdi;
+	private String namaProdi;
+	
+	public String getKodeProdi() {
+		return KodeProdi;
+	}
+	public void setKodeProdi(String kodeProdi) {
+		KodeProdi = kodeProdi;
+	}
+	public String getNamaProdi() {
+		return namaProdi;
+	}
+	public void setNamaProdi(String namaProdi) {
+		this.namaProdi = namaProdi;
+	}
+	
+	Dosen korprodi = new Dosen();
+
+	public Dosen getKorprodi() {
+		return korprodi;
+	}
+	
+}

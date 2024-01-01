@@ -1,0 +1,49 @@
+package id.ac.undiksha.siak.organisasi;
+import id.ac.undiksha.siak.people.Dosen;
+
+public class Prodi implements Jurusan {
+	String kodeJurusan;
+	@Override
+	public void setKodeJurusan(String kodeJurusan) {
+		// TODO Auto-generated method stub
+		this.kodeJurusan = kodeJurusan;
+	}
+	@Override
+	public String getKodeJurusan() {
+		// TODO Auto-generated method stub
+		return this.kodeJurusan;
+	}
+	@Override
+	public void setNamaJurusan(String namaJurusan) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public String getNamaJurusan() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private String KodeProdi;
+	private String namaProdi;
+	
+	public String getKodeProdi() {
+		return KodeProdi;
+	}
+	public void setKodeProdi(String kodeProdi) {
+		KodeProdi = kodeProdi;
+	}
+	public String getNamaProdi() {
+		return namaProdi;
+	}
+	public void setNamaProdi(String namaProdi) {
+		this.namaProdi = namaProdi;
+	}
+	
+	Dosen korprodi = new Dosen();
+
+	public Dosen getKorprodi() {
+		return korprodi;
+	}
+	
+}

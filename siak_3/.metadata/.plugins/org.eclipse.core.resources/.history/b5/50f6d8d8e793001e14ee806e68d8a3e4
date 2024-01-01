@@ -1,0 +1,41 @@
+package id.ac.undiksha.siak.people;
+
+public class Dosen extends Manusia{
+	private String npwp;
+	private String no_telpon;
+	
+	public Dosen () {
+		this.npwp = "<Masukan NPWP>";
+		this.no_telpon = "<Masukan No Telpon>";
+//		super.setNama("<Masukan nama dari mahasiswa : >");
+	}
+	
+	public Dosen(String nama, String tglLahir, String alamat, boolean jk, String npwp, String no_telpon) {
+		super(nama, tglLahir, alamat, jk);
+		this.npwp = npwp;
+		this.no_telpon = no_telpon;
+	}
+
+	public String getNpwp() {
+		return npwp;
+	}
+	public void setNpwp(String npwp) {
+		this.npwp = npwp;
+	}
+
+	public String getNo_telpon() {
+		return no_telpon;
+	}
+	
+	public void setNo_telpon(String no_telpon) {
+		this.no_telpon = no_telpon;
+	}
+	
+	public void printAll() {
+		super.printAll();
+		System.out.println("NPWP            : " + this.getNpwp());
+		System.out.println("No Telpon       : " + this.getNo_telpon());
+		System.out.println();
+	}
+}
+
